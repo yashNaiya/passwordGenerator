@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(255, 215, 162);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    padding: 5px;
+    background-color:rgb(255, 183, 95) ;
+    color:rgb(255, 255, 255);
+    height:auto;
+    width: 300px;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8)
+}
+.pw-field{
+    background-color:rgb(255, 215, 162);
+    height: 30px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 5px;
+    overflow: visible;
+}
+.pw-field .but{
+    float: right;
+    position: absolute;
+    right: 0;
+    transform: translateX(-10%);
+    background-color: burlywood;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+}
+.pv-body{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+}
+.pv-el{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Genbut{
+    display: block;
+    border: none;
+    background-color: #755c3c;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    width: 300px;
+    margin-top: 8px;
+}
